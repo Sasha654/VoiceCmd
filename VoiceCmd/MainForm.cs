@@ -168,6 +168,7 @@ namespace VoiceCmd
                 btnStart.Text = "Run Recognize";
                 this.Icon = Properties.Resources.voiceOff;
                 this.notifyIcon.Icon = Properties.Resources.voiceOff;
+                dataGridView1.ReadOnly = false;
                 pictureBoxRedBlink.Visible = false;
                 RecognizeFinish();
             }
@@ -177,6 +178,7 @@ namespace VoiceCmd
                 btnStart.Text = "Finish Recognize";
                 this.Icon = Properties.Resources.voiceOn;
                 this.notifyIcon.Icon = Properties.Resources.voiceOn;
+                dataGridView1.ReadOnly = true;
                 pictureBoxRedBlink.Visible = true;
                 InitializeAction();
                 RecognizeRun();

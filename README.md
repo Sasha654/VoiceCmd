@@ -14,3 +14,5 @@ Voice commands for PC control (.NET, C#)
 2. https://www.microsoft.com/en-us/download/details.aspx?id=27225 - Microsoft Speech Platform - Runtime
    https://www.microsoft.com/en-us/download/details.aspx?id=27226 - Microsoft Speech Platform - Software Development Kit   
    https://www.microsoft.com/en-us/download/details.aspx?id=21924 - Microsoft Speech Platform - Server Runtime Languages (MSSpeech_SR_ru-RU_TELE.msi)
+
+   Работоспособность проверена на Dell Latitude E7470.
